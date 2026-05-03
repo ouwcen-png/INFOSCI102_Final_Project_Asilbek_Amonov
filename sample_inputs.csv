@@ -1,0 +1,7 @@
+label,text,expected_behavior
+High sensationalism,"SHOCKING: Radical leaders destroy the economy in devastating policy disaster!!!",High score with emotional and political framing flags
+Medium framing,"Critics say new education policy could create serious problems for local schools",Medium or low-to-medium score
+Low framing,"City council approves new transportation budget after public hearing",Low score with few or no flags
+Weak sourcing,"People are saying a secret cover-up caused the sudden collapse of the program",Medium/high score with weak sourcing and misinformation cue flags
+Comparison A,"SHOCKING: Radical policy destroys local economy!!!",Higher score than Comparison B
+Comparison B,"New policy faces criticism over possible economic effects",Lower score than Comparison A
