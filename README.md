@@ -70,11 +70,7 @@ framecheck_project/
 ├── requirements.txt               # Python dependencies
 ├── README.md                      # Short project overview and usage instructions
 ├── replication_ai_usage.md        # Full replication and AI disclosure document
-├── demo_script.md                 # Suggested 4-7 minute demo video script
-├── submission_checklist.md        # Final Canvas and Discussions checklist
 ├── sample_inputs.csv              # Example texts for testing/demo
-└── tests/
-    └── test_engine.py             # Basic unit tests for core logic
 ```
 
 ## Replication document
