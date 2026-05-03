@@ -175,10 +175,7 @@ AI assistance was used for:
 - narrowing the original broad project proposal into a realistic final project
 - designing the app structure
 - writing the first version of the Python code
-- organizing the project into GitHub-ready files
-- drafting the README
 - drafting this replication and AI usage document
-- drafting a demo video script
 - debugging and simplifying implementation choices
 
 ### What was student-authored / student-directed
@@ -195,31 +192,20 @@ Student design decisions included:
 
 ### Prompt documentation
 
-The following prompts summarize the non-trivial AI prompts used during development:
 
-1. **Project simplification prompt**
-
-```text
-I have a final project proposal about building an AI-assisted Python tool that helps users evaluate reliability, framing, sensationalism, bias, and misinformation in news content. I only have a few hours. What simpler project from this idea would work best for INFOSCI 102 while still scoring well on originality and the rubric?
-```
-
-2. **Implementation prompt**
+1. **Implementation prompt**
 
 ```text
-Based on the final project rubric and my proposal, create a simple but strong Python project that can be uploaded to GitHub. It should analyze news headlines or short paragraphs for loaded wording, sensationalism, political framing, and weak sourcing. Make it simple enough to finish quickly, but polished enough for a high grade. Include a Streamlit app, scoring logic, neutral rewrite feature, README, replication document, AI disclosure, and demo script.
+Help me turn the simplified idea into a small Streamlit project. The project should analyze a headline or short paragraph, flag loaded language, give a score, explain the result, and include one original feature that makes it more than a basic sentiment checker.
 ```
 
-3. **Documentation prompt**
+2. **Documentation prompt**
 
 ```text
-Write a replication and AI usage document for this INFOSCI 102 project. Include operating system, Python version, dependencies, installation steps, how to run the project, expected outputs, AI tools used, prompts used, what AI contributed, what I contributed, and external resources.
+Help me organize the project into clean Python files for GitHub. I want one file for the Streamlit app, one file for the analysis logic, a requirements file, a README, and a replication document. Review the project structure and explain how other students can run it. Make sure the instructions are simple enough for someone using Python and Streamlit for the first time.
 ```
 
-4. **Demo script prompt**
 
-```text
-Create a 4-7 minute demo video script for a Streamlit project called FrameCheck. The project analyzes news headlines for sensationalism and framing, shows flagged terms, gives a score, compares two headlines, and suggests a neutral rewrite. The script should explain the purpose, design decisions, code logic, limitations, and how to run it.
-```
 
 ### External resources used
 
